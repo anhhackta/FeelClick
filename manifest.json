@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "FeelClick",
-  "version": "1.0",
+  "version": "0.1.0",
   "description": "A browser extension for one-handed scrolling with a virtual scroll zone.",
   "permissions": [
     "storage",
