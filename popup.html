@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FeelClick Settings</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FeelClick</h1>
+    <div class="toggle-container">
+      <label for="enable-extension">Enable Extension</label>
+      <input type="checkbox" id="enable-extension" checked>
+    </div>
+    
+    <div class="mode-selection">
+      <h2>Select Mode</h2>
+      <div class="mode-option">
+        <input type="radio" name="mode" id="mode1" value="1" checked>
+        <label for="mode1">Mode 1: Left Up / Right Down</label>
+      </div>
+      <div class="mode-option">
+        <input type="radio" name="mode" id="mode2" value="2">
+        <label for="mode2">Mode 2: Left Down / Right Up</label>
+      </div>
+      <div class="mode-option">
+        <input type="radio" name="mode" id="mode3" value="3">
+        <label for="mode3">Mode 3: Split Left/Right</label>
+      </div>
+      <div class="mode-option">
+        <input type="radio" name="mode" id="mode4" value="4">
+        <label for="mode4">Mode 4: Split Top/Bottom</label>
+      </div>
+      <div class="mode-option">
+        <input type="radio" name="mode" id="mode5" value="5">
+        <label for="mode5">Mode 5: Continuous Scroll</label>
+      </div>
+    </div>
+
+    <button id="reset-position">Reset Zone Position</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
